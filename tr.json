@@ -1,0 +1,98 @@
+[
+ {
+  "id": 0,
+  "name": "SAMSUNG",
+  "price": 20,
+  "count": 28
+ },
+ {
+  "id": 1,
+  "name": "hp",
+  "price": 78,
+  "count": 30
+ },
+ {
+  "id": 2,
+  "name": "Dell",
+  "price": 400,
+  "count": 50
+ },
+ {
+  "id": 3,
+  "name": "Canon",
+  "price": 530,
+  "count": 80
+ },
+ {
+  "id": 0,
+  "name": "SAMSUNG",
+  "price": 350,
+  "count": 20
+ },
+ {
+  "id": 1,
+  "name": "Redmi",
+  "price": 280,
+  "count": 40
+ },
+ {
+  "id": 2,
+  "name": "Dell",
+  "price": 400,
+  "count": 50
+ },
+ {
+  "id": 3,
+  "name": "Canon",
+  "price": 530,
+  "count": 80
+ },
+ {
+  "id": 0,
+  "name": "SAMSUNG",
+  "price": 350,
+  "count": 20
+ },
+ {
+  "id": 1,
+  "name": "Redmi",
+  "price": 280,
+  "count": 40
+ },
+ {
+  "id": 2,
+  "name": "Dell",
+  "price": 400,
+  "count": 50
+ },
+ {
+  "id": 3,
+  "name": "Canon",
+  "price": 530,
+  "count": 80
+ },
+ {
+  "id": 4,
+  "name": "SAMSUNG",
+  "price": 350,
+  "count": 20
+ },
+ {
+  "id": 5,
+  "name": "Redmi",
+  "price": 280,
+  "count": 40
+ },
+ {
+  "id": 6,
+  "name": "Dell",
+  "price": 400,
+  "count": 50
+ },
+ {
+  "id": 7,
+  "name": "Canon",
+  "price": 530,
+  "count": 80
+ }
+]

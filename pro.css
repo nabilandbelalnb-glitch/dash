@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f4f6f8;
+}
+
+.dashboard {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 240px;
+  background: #002435;
+  color: #fff;
+  padding: 30px;
+}
+
+a {
+  color: #c78632;
+  text-decoration: none;
+}
+
+.sidebar h2 {
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar li {
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.sidebar .active {
+  background: #c9a227;
+  color: #002435;
+}
+
+
+/* Main */
+.main {
+  flex: 1;
+  padding: 25px;
+}
+
+/* Topbar */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.topbar input {
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Form */
+.form-section {
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  margin-bottom: 30px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.form-grid input,
+.form-grid button {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.form-grid button {
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Table */
+.table-section {
+  background: #fff;
+  border-radius: 15px;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: center;
+}
+
+th {
+  background: #f1f1f1;
+}
+
+img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.edit {
+  background: #c9a227;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.delete {
+  background: #000;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 8px;
+  color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+  .topbar input {
+    width: 100%;
+  }
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Products managment</title>
+ <link rel="stylesheet" href="pro.css">
+</head>
+
+<body>
+
+ <div class="dashboard">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+   <h2>Products managment</h2>
+   <ul>
+    <li class="active">Products</li>
+    <li><a href="index.html">Home</a></li>
+   </ul>
+  </aside>
+
+  <!-- Main -->
+  <main class="main">
+
+   <!-- Top Bar -->
+   <div class="topbar">
+    <input type="text" id="search" placeholder="Search products...">
+    <span>Admin</span>
+   </div>
+
+   <!-- Form -->
+   <section class="form-section">
+    <h3>Product Management</h3>
+
+    <div class="form-grid">
+     <input id="name" placeholder="Product Name">
+     <input id="price" type="number" placeholder="Price">
+     <input id="category" placeholder="Category">
+     <input id="stock" type="number" placeholder="Stock">
+     <input id="image" type="file">
+     <button id="submit">Save Product</button>
+    </div>
+   </section>
+
+   <!-- Table -->
+   <section class="table-section">
+    <table>
+     <thead>
+      <tr>
+       <th>Image</th>
+       <th>Name</th>
+       <th>Price</th>
+       <th>Category</th>
+       <th>Stock</th>
+       <th>Actions</th>
+      </tr>
+     </thead>
+     <tbody id="tbody"></tbody>
+    </table>
+   </section>
+
+  </main>
+ </div>
+
+ <script src="pro.js"></script>
+</body>
+
+</html>

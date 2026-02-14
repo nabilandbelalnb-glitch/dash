@@ -1,0 +1,60 @@
+#home {
+  background-color: #015bad;
+  display: block;
+  color: white;
+  font-size: 25px;
+  font-family: "Story Script", sans-serif;
+  font-weight: bold;
+  margin: -10px;
+  padding: 15px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.inp {
+  position: relative;
+  top: 90px;
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+
+#text,
+#number,
+#number2,
+#number3,
+#amount,
+#submit {
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border-color: #015bad;
+}
+
+::placeholder {
+  color: black;
+  font-size: 20px;
+  font-family: "Story Script", sans-serif;
+}
+
+hr {
+  position: relative;
+  top: 114px;
+  background-color: #015bad;
+  width: 900px;
+  height: 3px;
+  border: none;
+}
+
+.calc {
+  font-size: 30px;
+  position: relative;
+  top: 40px;
+  display: flex;
+  justify-content: center;
+  font-family:"Story Script", sans-serif;
+}
+

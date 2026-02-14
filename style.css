@@ -1,0 +1,130 @@
+#home {
+  background-color: #002435;
+  display: block;
+  color: white;
+  font-size: 27px;
+  font-weight: bold;
+  margin: -10px;
+  padding: 15px;
+}
+
+*{
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+  top: 90px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+#text,
+#number,
+#number2,
+#number3,
+#amount,
+#submit {
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border-color: #002435;
+  background-color: #002435;
+  color:#c78632;
+  font-size: 20px;
+}
+
+::placeholder {
+  color: #c78632;
+  font-size: 20px;
+  position: relative;
+  left: 300px;
+}
+
+/* hr {
+  position: relative;
+  top: 114px;
+  background-color: #015bad;
+  width: 900px;
+  height: 3px;
+  border: none;
+} */
+
+.calc {
+  font-size: 30px;
+  position: relative;
+  top: 40px;
+  display: flex;
+  justify-content: center;
+  font-family: "Story Script", sans-serif;
+}
+
+label {
+  font-family: "Story Script", sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 30px;
+  left: -480px;
+  margin-top: 30px;
+}
+
+.header {
+  font-family: "Story Script", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  display: flex;
+  justify-content: center;
+  width: 700px;
+}
+
+#submit {
+  position: relative;
+  top: 30px;
+  left: 10px;
+  background-color: #002435;
+  outline: none;
+  border: none;
+  padding: 10px;
+  color: #c78632;
+  font-family: "Story Script", sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#submit:hover {
+  transition-duration: 1s;
+  scale: 1.2;
+  background-color: #c78632;
+  color: white;
+  box-shadow: #c78632 5px 1px 20px;
+}
+
+#result {
+  position: fixed;
+  top: 554px;
+  left: 550px;
+  font-size: 25px;
+  font-family: "Story Script", sans-serif;
+  color: #002435;
+}
+
+.table1 {
+  position: relative;
+  left: 2px;
+  top: 145px;
+  padding: 21px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
